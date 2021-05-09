@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   min-height: 1000px;
+   line-height: 30px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* container */
+.container {
+   width: 55%;
+   margin: 0 auto;
+}
+
+/* start main-nav section */
+nav {
+   width: 100%;
+   margin: 0 auto;
+   background: #EAEAEA;
+}
+
+.nav-container {
+   padding: 22px 10px;
+   display: flex;
+   align-items: center;
+}
+
+.nav-items {
+   display: flex;
+   margin-left: auto;
+   margin-top: 15px;
+}
+
+.item {
+   padding: 10px;
+   margin-left: 30px;
+}
+
+.item a {
+   font-size: 16px;
+   color: #1d1d1d;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.active {
+   border-bottom: 4px solid #0066F9;
+}
+
+.item:hover {
+   border-bottom: 4px solid #0066F9;
+}
+
+.btn {
+   padding: 11px 23px;
+   margin-left: 30px;
+   margin-top: 14px;
+   background: #0066F9;
+}
+
+.btn a {
+   text-decoration: none;
+   text-transform: capitalize;
+   color: #ffffff;
+}
+
+/* start contact us section */
+.main-container {
+   padding: 30px 18px;
+}
+ 
+.main-item-container h1 {
+   font-size: 36px;
+   font-weight: 600;
+   margin-top: 25px;
+}
+ 
+.main-item-container p {
+   font-size: 17px;
+   margin-top: 25px;
+}
+
+/* start contact section */
+.form-container {
+   margin-top: 50px;
+}
+
+.form-grup {
+   width: 100%;
+   margin-top: 25px;
+}
+
+.form-grup label {
+   display: block;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.form-input-field {
+   margin-top: 10px;
+   width: 100%;
+   padding: 15px;
+   border: 1px solid #eaeaea;
+   outline: none;
+   font-size: 16px;
+   border-radius: 3px;
+   font-family: 'open sans';
+}
+
+.form-text-area {
+   margin-top: 10px;
+   width: 100%;
+   padding: 15px;
+   border: 1px solid #eaeaea;
+   outline: none;
+   font-size: 16px;
+   border-radius: 3px;
+   resize: none;
+   font-family: 'open sans';
+}
+
+.form-submit-button {
+   padding: 10px 30px;
+   border: none;
+   background: #0066f9;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 3px;
+   text-transform: uppercase;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+ 
+.lrow {
+   margin: 60px 0 25px 0;
+   color: #ffffff;
+}
+
+/*  start footer section */
+footer {
+   padding: 0 18px;
+   height: 160px;
+}
+ 
+.icon a i {
+   font-size: 40px;
+   color: #0066F9;
+   margin-right: 16px;
+}
+ 
+footer p {
+   margin-top: 10px;
+ }
+ 
+footer p a {
+   color: #000000;
+ }
+ 
+ /* end footer section */
